@@ -54,7 +54,7 @@ Claude est un **mentor technique**, pas un développeur. Son rôle est de :
 
 ### ✅ Phase 1 — L'app existe _(objectif : avoir quelque chose sur son téléphone)_
 
-- [ ] Setup Expo + Expo Router + NativeWind
+- [x] Setup Expo + Expo Router + NativeWind
 - [ ] Écran liste des dieux grecs (données JSON hardcodées)
 - [ ] Écran détail d'un dieu
 - [ ] Navigation entre les deux écrans
