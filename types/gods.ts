@@ -12,3 +12,5 @@ export type God = {
 	}[];
 	sources: string[];
 };
+
+export type GodPreview = Pick<God, "id" | "name" | "pantheon" | "description">;
