@@ -1,4 +1,4 @@
-import { GodPreview } from "@/types/gods";
+import { GodPreview, Pantheon } from "@/types/gods";
 import { ReactNode } from "react";
 import { Text, View } from "react-native";
 
@@ -27,14 +27,14 @@ function CardText({ children }: CardTextProps) {
 
 type CardTitleProps = {
 	name: string;
-	pantheon: string;
+	pantheon: Pantheon;
 };
 
 function CardHeader({ name, pantheon }: CardTitleProps) {
 	return (
-		<View className="flex flex-row justify-around mb-2">
+		<View className="flex flex-row justify-center gap-2 mb-2">
 			<TitleText>{name}</TitleText>
-			<TitleText>{pantheon}</TitleText>
+			<TitleText>{pantheon.icon}</TitleText>
 		</View>
 	);
 }

@@ -2,7 +2,11 @@ export const GREEK_GODS = [
 	{
 		id: 1,
 		name: "Zeus",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: [
 			"ciel",
 			"foudre",
@@ -50,7 +54,11 @@ export const GREEK_GODS = [
 	{
 		id: 2,
 		name: "Héra",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: ["mariage", "famille", "femmes", "ciel"],
 		description:
 			"Déesse du mariage et reine des dieux, Héra est l'épouse de Zeus et la protectrice des femmes et de la vie conjugale. Fille de Cronos et Rhéa, elle règne sur l'Olympe aux côtés de Zeus et est connue pour sa jalousie envers les nombreuses conquêtes de son époux.",
@@ -79,7 +87,11 @@ export const GREEK_GODS = [
 	{
 		id: 3,
 		name: "Poséidon",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: ["mer", "tremblements de terre", "chevaux", "tempêtes"],
 		description:
 			"Poséidon est le dieu des mers, des océans et des tremblements de terre. Frère de Zeus et d'Hadès, il règne sur les eaux du monde depuis son palais sous-marin et commande aux tempêtes, aux flots et aux chevaux.",
@@ -108,7 +120,11 @@ export const GREEK_GODS = [
 	{
 		id: 4,
 		name: "Athéna",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: ["sagesse", "guerre", "artisanat", "justice", "stratégie"],
 		description:
 			"Athéna est la déesse de la sagesse, de la guerre stratégique et de l'artisanat. Née directement du crâne de Zeus tout armée, elle est la protectrice d'Athènes et incarne l'intelligence, la raison et la justice.",
@@ -129,7 +145,11 @@ export const GREEK_GODS = [
 	{
 		id: 5,
 		name: "Apollon",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: [
 			"soleil",
 			"musique",
@@ -162,7 +182,11 @@ export const GREEK_GODS = [
 	{
 		id: 6,
 		name: "Artémis",
-		pantheon: "Grec",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
 		domains: [
 			"chasse",
 			"lune",

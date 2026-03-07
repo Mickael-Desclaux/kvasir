@@ -1,7 +1,7 @@
 export type God = {
 	id: number;
 	name: string;
-	pantheon: string;
+	pantheon: Pantheon;
 	domains: string[];
 	description: string;
 	symbols: string[];
@@ -14,3 +14,9 @@ export type God = {
 };
 
 export type GodPreview = Pick<God, "id" | "name" | "pantheon" | "description">;
+
+export type Pantheon = {
+	id: number;
+	name: string;
+	icon: string;
+};
