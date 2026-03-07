@@ -7,14 +7,17 @@ export default function Index() {
 		<View className="flex-1 items-center justify-center bg-zinc-950">
 			<FlatList
 				data={GREEK_GODS}
-				className="max-w-[80vw] gap-4"
+				className="max-w-[80vw]"
 				renderItem={({ item }) => (
 					<GodCard
 						god={{
 							id: item.id,
 							name: item.name,
 							pantheon: item.pantheon,
+							title: item.title,
+							icon: item.icon,
 							description: item.description,
+							domains: item.domains,
 						}}
 					/>
 				)}
