@@ -24,19 +24,19 @@ module.exports = {
 				tertiary: "#5A574F",
 
 				domain: {
-					sovereignty: "#C9A84C", // Foudre, Souveraineté (Zeus…)
-					sea: "#4A7FA5", // Mer, Eau (Poséidon…)
-					wisdom: "#6A9A6A", // Sagesse, Nature (Athéna…)
-					war: "#A05050", // Guerre, Feu (Arès…)
-					death: "#7A5A9A", // Mort, Mystère (Hadès…)
-					sun: "#C96B1A", // Soleil (Rê, Apollon…)
-					magic: "#5A7A9A", // Magie, Savoir (Odin…)
+					sovereignty: "#C9A84C",
+					sea: "#4A7FA5",
+					wisdom: "#6A9A6A",
+					war: "#A05050",
+					death: "#7A5A9A",
+					sun: "#C96B1A",
+					magic: "#5A7A9A",
 				},
 			},
 
 			fontFamily: {
-				cinzel: ["Cinzel_400Regular"], // titres, noms, navigation
-				inter: ["Inter"], // corps de texte, descriptions
+				cinzel: ["Cinzel_400Regular"],
+				inter: ["Inter"],
 			},
 
 			borderRadius: {
@@ -48,19 +48,19 @@ module.exports = {
 			},
 
 			spacing: {
-				screen: "20px", // padding horizontal des écrans
-				card: "12px", // gap entre les cartes
-				section: "18px", // espacement entre sections
+				screen: "20px",
+				card: "12px",
+				section: "18px",
 			},
 
 			height: {
 				"bottom-nav": "64px",
-				"god-card": "44px", // hauteur de l'icône dans une carte
-				featured: "180px", // hauteur des cartes featured
+				"god-card": "44px",
+				featured: "180px",
 			},
 
 			width: {
-				featured: "140px", // largeur des cartes featured
+				featured: "140px",
 			},
 		},
 	},

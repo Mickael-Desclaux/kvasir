@@ -18,7 +18,7 @@ export type God = {
 
 export type GodPreview = Pick<
 	God,
-	"id" | "name" | "pantheon" | "title" | "icon" | "description" | "mainTags"
+	"id" | "name" | "pantheon" | "icon" | "mainTags"
 >;
 
 export type Pantheon = {

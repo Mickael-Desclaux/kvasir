@@ -13,9 +13,7 @@ export default function Index() {
 							id: item.id,
 							name: item.name,
 							pantheon: item.pantheon,
-							title: item.title,
 							icon: item.icon,
-							description: item.description,
 							mainTags: item.mainTags,
 						}}
 					/>
