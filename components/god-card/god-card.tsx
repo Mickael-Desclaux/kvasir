@@ -1,4 +1,3 @@
-import { colorMap } from "@/const/colors";
 import { Domain, GodPreview, Pantheon } from "@/types/gods";
 import { ReactNode } from "react";
 import { Text, View } from "react-native";
@@ -9,9 +8,9 @@ type GodCardProps = {
 
 export default function GodCard({ god }: GodCardProps) {
 	return (
-		<View className="bg-zinc-900 p-2 flex rounded-lg my-2 border border-amber-700">
+		<View className="bg-surface-2 p-2 flex rounded-card my-2 border border-domain-sovereignty">
 			<CardHeader name={god.name} pantheon={god.pantheon} />
-			<CardSubtitle title={god.title} icon={god.icon} />
+			<Text className="text-secondary text-center mb-2">{god.title}</Text>;
 			<CardFooter domains={god.domains} />
 		</View>
 	);
@@ -36,22 +35,10 @@ type TitleTextProps = {
 };
 
 function TitleText({ children }: TitleTextProps) {
-	return <Text className="text-center text-amber-500 text-xl">{children}</Text>;
-}
-
-type CardSubtitleProps = {
-	title: string;
-	icon: string;
-};
-
-function CardSubtitle({ title, icon }: CardSubtitleProps) {
 	return (
-		<View className="flex flex-row gap-2 items-base justify-center">
-			<Text>{icon}</Text>
-			<Text className="text-amber-500 italic underline text-center mb-2">
-				{title}
-			</Text>
-		</View>
+		<Text className="text-center text-gold-light text-xl font-cinzel">
+			{children}
+		</Text>
 	);
 }
 
@@ -61,7 +48,7 @@ type CardFooterProps = {
 
 function CardFooter({ domains }: CardFooterProps) {
 	return (
-		<View className="flex flex-row gap-2 items-center justify-evenly flex-wrap mt-2">
+		<View className="flex flex-row gap-2 items-center justify-start flex-wrap mt-2">
 			{domains.map((domain: Domain, index: number) => (
 				<DomainTag key={index} domain={domain} />
 			))}
@@ -74,13 +61,8 @@ type DomainTagProps = {
 };
 
 function DomainTag({ domain }: DomainTagProps) {
-	const color = colorMap[domain.color];
-
 	return (
-		<Text
-			style={{ backgroundColor: color }}
-			className="px-2 py-1 rounded self-start text-center"
-		>
+		<Text className="px-3 uppercase py-1 rounded-full self-start text-center text-xs font-cinzel text-domain-sea border border-domain-sea">
 			{domain.name}
 		</Text>
 	);
