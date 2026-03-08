@@ -17,7 +17,7 @@ export default function Index() {
 							title: item.title,
 							icon: item.icon,
 							description: item.description,
-							domains: item.domains,
+							mainTags: item.mainTags,
 						}}
 					/>
 				)}

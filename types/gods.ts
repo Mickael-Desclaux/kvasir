@@ -4,7 +4,8 @@ export type God = {
 	icon: string;
 	pantheon: Pantheon;
 	title: string;
-	domains: Domain[];
+	mainTags: string[];
+	domains: string[];
 	description: string;
 	symbols: string[];
 	attributes: string[];
@@ -17,34 +18,11 @@ export type God = {
 
 export type GodPreview = Pick<
 	God,
-	"id" | "name" | "pantheon" | "title" | "icon" | "description" | "domains"
+	"id" | "name" | "pantheon" | "title" | "icon" | "description" | "mainTags"
 >;
 
 export type Pantheon = {
 	id: number;
 	name: string;
 	icon: string;
-};
-
-export type Color =
-	| "sky"
-	| "yellow"
-	| "indigo"
-	| "amber"
-	| "pink"
-	| "orange"
-	| "cyan"
-	| "stone"
-	| "slate"
-	| "violet"
-	| "red"
-	| "fuchsia"
-	| "purple"
-	| "green"
-	| "lime"
-	| "white";
-
-export type Domain = {
-	name: string;
-	color: Color;
 };
