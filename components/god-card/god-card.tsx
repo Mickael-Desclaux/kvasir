@@ -12,8 +12,8 @@ export default function GodCard({ god }: GodCardProps) {
 			<Text className="text-3xl p-4 border-[0.5px] border-amber-300/50 bg-amber-500/10 rounded-2xl">
 				{god.icon}
 			</Text>
-			<View className="flex flex-1 ms-4">
-				<CardHeader name={god.name} pantheon={god.pantheon} />
+			<View className="flex ms-4">
+				<Text className="text-gold-light text-xl font-cinzel">{god.name}</Text>
 				<CardFooter mainTags={god.mainTags} />
 			</View>
 		</View>

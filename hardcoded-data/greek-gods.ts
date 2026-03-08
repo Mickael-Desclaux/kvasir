@@ -159,7 +159,7 @@ export const GREEK_GODS: God[] = [
 			icon: "Ω",
 		},
 		title: "Dieu du soleil et des arts",
-		mainTags: ["Olympien", "Dieu du soleil et de la musique"],
+		mainTags: ["Olympien", "Dieu du soleil et des arts"],
 		domains: ["soleil", "musique", "poésie", "art", "prophétie"],
 		description:
 			"Apollon est le dieu du soleil, de la musique, de la poésie et de la prophétie. Fils de Zeus et de Léto, frère jumeau d'Artémis, il est l'un des dieux les plus vénérés du panthéon grec et préside à l'oracle de Delphes.",
