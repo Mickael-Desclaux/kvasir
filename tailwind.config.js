@@ -24,13 +24,16 @@ module.exports = {
 				tertiary: "#5A574F",
 
 				domain: {
-					sovereignty: "#C9A84C",
-					sea: "#4A7FA5",
-					wisdom: "#6A9A6A",
-					war: "#A05050",
-					death: "#7A5A9A",
-					sun: "#C96B1A",
-					magic: "#5A7A9A",
+					life: "#4CAF50",
+					destruction: "#E53935",
+					nature: "#2E7D32",
+					sky: "#FDD835",
+					sea: "#1565C0",
+					fate: "#7E57C2",
+					knowledge: "#1E88E5",
+					society: "#FB8C00",
+					emotion: "#EC407A",
+					underworld: "#6A1B9A",
 				},
 			},
 
@@ -45,6 +48,10 @@ module.exports = {
 				card: "16px",
 				xl: "20px",
 				chip: "9999px",
+			},
+
+			boxShadow: {
+				god: "0 0 10px rgba(0,0,0,0.4)",
 			},
 
 			spacing: {

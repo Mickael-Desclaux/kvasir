@@ -48,6 +48,7 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/Zeus"],
+		primaryDomain: "sky",
 	},
 	{
 		id: 2,
@@ -84,6 +85,7 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/H%C3%A9ra"],
+		primaryDomain: "society",
 	},
 	{
 		id: 3,
@@ -120,6 +122,7 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/Pos%C3%A9idon"],
+		primaryDomain: "sea",
 	},
 	{
 		id: 4,
@@ -148,6 +151,7 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/Ath%C3%A9na"],
+		primaryDomain: "knowledge",
 	},
 	{
 		id: 5,
@@ -180,6 +184,7 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/Apollon"],
+		primaryDomain: "sky",
 	},
 	{
 		id: 6,
@@ -212,5 +217,6 @@ export const GREEK_GODS: God[] = [
 			},
 		],
 		sources: ["https://fr.wikipedia.org/wiki/Art%C3%A9mis"],
+		primaryDomain: "nature",
 	},
 ];

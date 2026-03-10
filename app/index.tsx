@@ -15,6 +15,7 @@ export default function Index() {
 							pantheon: item.pantheon,
 							icon: item.icon,
 							mainTags: item.mainTags,
+							primaryDomain: item.primaryDomain,
 						}}
 					/>
 				)}

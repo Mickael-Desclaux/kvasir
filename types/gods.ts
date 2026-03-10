@@ -4,6 +4,7 @@ export type God = {
 	icon: string;
 	pantheon: Pantheon;
 	title: string;
+	primaryDomain: PrimaryDomain;
 	mainTags: string[];
 	domains: string[];
 	description: string;
@@ -18,7 +19,7 @@ export type God = {
 
 export type GodPreview = Pick<
 	God,
-	"id" | "name" | "pantheon" | "icon" | "mainTags"
+	"id" | "name" | "pantheon" | "icon" | "mainTags" | "primaryDomain"
 >;
 
 export type Pantheon = {
@@ -26,3 +27,15 @@ export type Pantheon = {
 	name: string;
 	icon: string;
 };
+
+export type PrimaryDomain =
+	| "life"
+	| "destruction"
+	| "nature"
+	| "sky"
+	| "sea"
+	| "fate"
+	| "knowledge"
+	| "society"
+	| "emotion"
+	| "underworld";
