@@ -26,7 +26,7 @@ module.exports = {
 				domain: {
 					life: "#4CAF50",
 					destruction: "#E53935",
-					nature: "#2E7D32",
+					nature: "#43A047",
 					sky: "#FDD835",
 					sea: "#1E90FF",
 					fate: "#7E57C2",

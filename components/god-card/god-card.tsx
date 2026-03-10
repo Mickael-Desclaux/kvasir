@@ -11,7 +11,7 @@ export default function GodCard({ god }: GodCardProps) {
 
 	return (
 		<View
-			className={`bg-surface-2 p-2 flex-row items-center rounded-card my-2 border ${styles.card}`}
+			className={`bg-surface-2 px-2 py-4 flex-row items-center rounded-card my-2 border ${styles.card}`}
 		>
 			<Text
 				className={`text-3xl p-4 border-[0.5px] ${styles.icon} rounded-2xl`}
