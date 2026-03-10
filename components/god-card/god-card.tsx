@@ -19,7 +19,7 @@ export default function GodCard({ god }: GodCardProps) {
 				{god.icon}
 			</Text>
 			<View className="flex ms-4">
-				<Text className="text-gold-light text-xl font-cinzel">{god.name}</Text>
+				<Text className="text-primary text-xl font-cinzel">{god.name}</Text>
 				<CardFooter mainTags={god.mainTags} primaryDomain={god.primaryDomain} />
 			</View>
 		</View>
