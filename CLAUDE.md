@@ -54,7 +54,7 @@ Claude est un **mentor technique**, pas un développeur. Son rôle est de :
 
 ### ✅ Phase 1 — L'app existe _(objectif : avoir quelque chose sur son téléphone)_
 
-- [ ] Setup Expo + Expo Router + NativeWind
+- [x] Setup Expo + Expo Router + NativeWind
 - [ ] Écran liste des dieux grecs (données JSON hardcodées)
 - [ ] Écran détail d'un dieu
 - [ ] Navigation entre les deux écrans
@@ -156,4 +156,18 @@ Claude t'aidera à identifier où chercher, pas à trouver la réponse à ta pla
 
 ## Notes personnelles
 
-_(Section libre — à remplir au fil du projet)_
+## Qualité du code
+
+Claude doit me signaler (sans corriger) quand mon code ne respecte pas ces principes :
+
+### Single Responsibility
+
+- Un composant = une responsabilité d'affichage
+- La logique métier va dans des hooks custom (`useXxx`), pas dans les pages/composants
+- Si un composant fait plus de 2-3 choses, il faut le découper
+
+### Autres points à surveiller
+
+- Nommage : variables, fonctions et composants doivent exprimer leur intention
+- Ne pas dupliquer la logique (DRY) — si c'est copié-collé, c'est un signal
+- Props drilling excessif → penser à Zustand ou un contexte
