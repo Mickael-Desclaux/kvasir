@@ -219,4 +219,103 @@ export const GREEK_GODS: God[] = [
 		sources: ["https://fr.wikipedia.org/wiki/Art%C3%A9mis"],
 		primaryDomain: "nature",
 	},
+	{
+		id: 7,
+		name: "Artémis",
+		icon: "🏹",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
+		title: "Déesse de la chasse",
+		mainTags: ["Olympienne", "Déesse de la chasse"],
+		domains: ["chasse", "lune", "nature", "chasteté"],
+		description:
+			"Artémis est la déesse de la chasse, de la lune et de la nature sauvage. Fille de Zeus et de Léto, sœur jumelle d'Apollon, elle parcourt les forêts avec ses nymphes et est la protectrice des animaux et des jeunes filles.",
+		symbols: ["arc", "lune", "cerf", "cyprès"],
+		attributes: ["arc d'or", "carquois", "croissant de lune"],
+		relations: [
+			{
+				type: "parents",
+				entities: ["Zeus", "Léto"],
+			},
+			{
+				type: "twins",
+				entities: ["Apollon"],
+			},
+			{
+				type: "siblings",
+				entities: ["Athéna", "Arès", "Hermès", "Dionysos"],
+			},
+		],
+		sources: ["https://fr.wikipedia.org/wiki/Art%C3%A9mis"],
+		primaryDomain: "nature",
+	},
+	{
+		id: 8,
+		name: "Artémis",
+		icon: "🏹",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
+		title: "Déesse de la chasse",
+		mainTags: ["Olympienne", "Déesse de la chasse"],
+		domains: ["chasse", "lune", "nature", "chasteté"],
+		description:
+			"Artémis est la déesse de la chasse, de la lune et de la nature sauvage. Fille de Zeus et de Léto, sœur jumelle d'Apollon, elle parcourt les forêts avec ses nymphes et est la protectrice des animaux et des jeunes filles.",
+		symbols: ["arc", "lune", "cerf", "cyprès"],
+		attributes: ["arc d'or", "carquois", "croissant de lune"],
+		relations: [
+			{
+				type: "parents",
+				entities: ["Zeus", "Léto"],
+			},
+			{
+				type: "twins",
+				entities: ["Apollon"],
+			},
+			{
+				type: "siblings",
+				entities: ["Athéna", "Arès", "Hermès", "Dionysos"],
+			},
+		],
+		sources: ["https://fr.wikipedia.org/wiki/Art%C3%A9mis"],
+		primaryDomain: "nature",
+	},
+	{
+		id: 9,
+		name: "Artémis",
+		icon: "🏹",
+		pantheon: {
+			id: 1,
+			name: "Grec",
+			icon: "Ω",
+		},
+		title: "Déesse de la chasse",
+		mainTags: ["Olympienne", "Déesse de la chasse"],
+		domains: ["chasse", "lune", "nature", "chasteté"],
+		description:
+			"Artémis est la déesse de la chasse, de la lune et de la nature sauvage. Fille de Zeus et de Léto, sœur jumelle d'Apollon, elle parcourt les forêts avec ses nymphes et est la protectrice des animaux et des jeunes filles.",
+		symbols: ["arc", "lune", "cerf", "cyprès"],
+		attributes: ["arc d'or", "carquois", "croissant de lune"],
+		relations: [
+			{
+				type: "parents",
+				entities: ["Zeus", "Léto"],
+			},
+			{
+				type: "twins",
+				entities: ["Apollon"],
+			},
+			{
+				type: "siblings",
+				entities: ["Athéna", "Arès", "Hermès", "Dionysos"],
+			},
+		],
+		sources: ["https://fr.wikipedia.org/wiki/Art%C3%A9mis"],
+		primaryDomain: "nature",
+	},
 ];
